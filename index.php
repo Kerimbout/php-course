@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PHP Language</title>
+    <title>Kerry's Store</title>
   </head>
   <body>
     <?php
-     echo "<h1>Excited to Learn!</h1>";
+      $name = "Kerry's Store";
+      $wallet = 1000; 
+
+      echo "<h1>Welcome to ".$name."!</h1>";
+      echo "<h2>You have $".$wallet." in your wallet.</h2>";
     ?>
   </body>
 </html>
