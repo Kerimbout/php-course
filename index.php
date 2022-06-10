@@ -5,19 +5,20 @@
   </head>
   <body>
     <?php
-      $name = "Kerry's Store";
-      $wallet = 1000; 
+	    $name = "Kerry's Store";
+			$wallet = 1000; 
 
-      echo "<h1>Welcome to ".$name."!</h1>";
-      echo "<h2>You have $".$wallet." in your wallet.</h2>";
-    
-      $products['Computer']=750;
-      $products['Car']=15000;
-      $products['iPhone']=1000;
-      $products['Toaster']=75;
- 
+	    echo "<h1>Welcome to ".$name."!</h1>";
+	    echo "<h2>You have $".$wallet." in your wallet.</h2>";
+
+		  $products['Computer']=750;
+	    $products['Car']=15000;
+	    $products['iPhone']=1000;
+	    $products['Toaster']=75;
+
       $taxRate=0.0825;
-     function tax_calc($amount,$tax){
+
+      function tax_calc($amount,$tax){
 	    	$addedTax = $amount*$tax;
 	    	$amountWithTax = round($amount+$addedTax,2);
 	    	return $amountWithTax;
