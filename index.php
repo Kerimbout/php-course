@@ -18,6 +18,5 @@
 
 	    echo "<p>A laptop costs $".$products['Laptop']."</p>";
     ?>
-    ?>
   </body>
 </html>
